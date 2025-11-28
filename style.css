@@ -1,0 +1,76 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #e0e0e0;
+    display: flex;
+    justify-content: center;
+    padding: 50px 20px;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 900px; /* wider container */
+    background: white;
+    padding: 30px 40px; /* more padding */
+    border-radius: 15px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 32px;
+    margin-bottom: 25px;
+  }
+  
+  button {
+    padding: 15px 25px;
+    font-size: 18px; /* bigger button text */
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 30px;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #raceTrack {
+    position: relative;
+    height: 450px; /* taller race track */
+    margin-bottom: 30px;
+    border-top: 3px solid #ccc;
+    border-bottom: 3px solid #ccc;
+    background: linear-gradient(to right, #fafafa, #e8e8e8);
+    overflow: hidden; /* ensure runners stay inside */
+  }
+  
+  .runner {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    left: 0;
+  }
+  
+  .runner img {
+    width: 80px; /* bigger runner images */
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  
+  .runner span {
+    margin-top: 6px;
+    font-weight: bold;
+    font-size: 18px; /* bigger text */
+  }
+  
+  #winner {
+    font-size: 24px; /* bigger winner text */
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+  }
+  
