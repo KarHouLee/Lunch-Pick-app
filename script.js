@@ -6,11 +6,9 @@ const foods = [
   
   // Runner images (you can replace URLs with your own images)
   const runnerImages = [
-    "img.png/edward.png",
-    "img.png/evan.png",
-    "img.png/Jason.png",
-    "https://i.pravatar.cc/50?img=4",
-    "https://i.pravatar.cc/50?img=5"
+    "edward.png",
+    "evan.png",
+    "Jason.png"
   ];
   
   const numRunners = runnerImages.length;
@@ -72,4 +70,5 @@ const foods = [
   }
   
   startBtn.addEventListener("click", startRace);
+
   
